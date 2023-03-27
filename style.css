@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5 {
   letter-spacing: 1px; /* add some letter spacing */
   line-height: 1.5; /* adjust the line height */
   margin-bottom: 20px; /* add some spacing below the headings */
-  color: #4c4c4c; /* change the text color */
+  color: #e1e1e1; /* change the text color */
 }
 
 h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
@@ -176,10 +176,10 @@ a:hover {
   padding: 4rem 0;
 }
 
-#projects h2 {
+#projects h3 {
   font-size: 2.5rem;
-  margin-bottom: 2rem;
   text-align: center;
+  color: #1f1f1f;
 }
 
 #projects .card {
