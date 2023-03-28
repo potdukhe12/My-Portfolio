@@ -5,7 +5,8 @@ body {
   line-height: 1.5;
   color: #333;
   background-color: #fff;
-  margin: 0 50px 0 50px;
+  /* margin: 0 2% 0 2%; */
+  justify-content: center;
 }
 
 #about li:hover {
@@ -20,7 +21,7 @@ h1, h2, h3, h4, h5 {
   letter-spacing: 1px; /* add some letter spacing */
   line-height: 1.5; /* adjust the line height */
   margin-bottom: 20px; /* add some spacing below the headings */
-  color: #4c4c4c; /* change the text color */
+  color: #e1e1e1; /* change the text color */
 }
 
 h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
@@ -72,9 +73,9 @@ a:hover {
 }
 
 .navbar-toggler-icon {
-  color: #333232; /* change the color of the toggle icon */
+  color: #333232; 
   background-color: #edeaea;
-  font-size: 1.2rem; /* change the font size of the toggle icon */
+  font-size: 1.2rem;
 }
 
 .navbar-toggler-icon:hover {
@@ -128,8 +129,8 @@ a:hover {
 }
 
 #about img {
-  border-radius: 50%;
   margin-bottom: 1rem;
+  padding: 10% 5% 5% 5%;
 }
 
 #about p {
@@ -171,7 +172,9 @@ a:hover {
   border-top-right-radius: 0;
 }
 
-/* Projects section styles */
+
+/* Project Section */
+
 #projects {
   padding: 4rem 0;
 }
@@ -182,23 +185,79 @@ a:hover {
   text-align: center;
 }
 
+#projects h3 {
+  color:#333;
+  text-align: center;
+  font-weight: bold;
+}
+
 #projects .card {
-  border: none;
-  transition: all 0.2s ease-in-out;
-  background-color: #ffffff;
-  border-radius: 15px;
+  width: 90%;
+  height: 510px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  scroll-snap-align: start;
+  margin: 2% auto;
 }
 
-#projects img {
-  border-radius: 15px;
-  height: 230px;
-  margin: 20px 20px 0 20px; 
-  outline: 2px solid #a8a8a8;
+.card:hover {
+  /* transform: translateY(-5px); */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
-#projects .card:hover {
-  transform: translateY(-5px) translate(5px) scale(1.05);
+.card img {
+  height: 300px;
+  object-fit: cover;
+  margin: 3% 5% 0 5%;
+  border: 4px solid #c0c0c0;
+  border-radius: 7px;
 }
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+  opacity: 1;
+} 
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.carousel-control-prev-icon {
+  background-image: none;
+  color: black;
+  position: relative;
+  right: 55px;
+}
+
+.carousel-control-next-icon {
+  background-image: none;
+  color: black;
+  position: relative;
+  left: 55px;
+}
+
+@media (max-width: 768px) {
+  .carousel-indicators {
+    display: none;
+  }
+
+  .carousel-inner .carousel-item {
+    height: calc(100vh - 10px);
+  }
+
+  .carousel-inner .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 5%;
+  }
+}
+
 
 /* Footer styles */
 footer {
