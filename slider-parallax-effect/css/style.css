@@ -118,9 +118,10 @@ body {
 .card__image {
   z-index: 1;
   position: absolute;
-  top: -290px;
-  left: -30px;
-  width: 125%;
+  height: 190px;
+  top: -165px;
+  left: -25px;
+  width: 110%;
 
   user-select: none;
   -moz-user-select: none;
