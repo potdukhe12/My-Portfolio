@@ -1,0 +1,268 @@
+/* Global styles */
+/* body {
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+  margin: 0 2% 0 2%;
+} */
+
+#about li:hover {
+  color: #808080;
+  text-shadow: 1px 1px 1px black;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Arial", sans-serif; /* change the font family */
+  text-transform: uppercase; /* make the text uppercase */
+  letter-spacing: 1px; /* add some letter spacing */
+  line-height: 1.5; /* adjust the line height */
+  margin-bottom: 20px; /* add some spacing below the headings */
+  color: #e1e1e1; /* change the text color */
+}
+
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
+  transform: scale(1.01);
+  text-shadow: 1px 1px 2px grey;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  border: none;
+  transition: all 0.1s ease-in-out;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #000;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #f8f9fa !important;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+  color: #fff !important;
+  transform: scale(1.02);
+  text-shadow: 1px 1px 2px grey;
+  
+}
+
+.navbar-toggler-icon {
+  color: #333232; /* change the color of the toggle icon */
+  background-color: #edeaea;
+  font-size: 1.2rem; /* change the font size of the toggle icon */
+}
+
+.navbar-toggler-icon:hover {
+  transform: scale(1.1);
+}
+
+.navbar-collapse {
+  -webkit-transition: height 0.3s ease-in-out;
+  transition: height 0.3s ease-in-out;
+}
+
+.navbar-collapse.collapsing {
+  height: 0;
+}
+
+.navbar-collapse.collapse.show {
+  height: auto;
+}
+
+/* Header styles */
+#header {
+  background-image: url('https://via.placeholder.com/1500x500');
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+#header h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+#header p {
+  font-size: 1.5rem;
+}
+
+/* About section styles */
+#about {
+  padding: 4rem 0;
+}
+
+#about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+#about img {
+  margin-bottom: 1rem;
+  padding: 0% 0% 5% 0%;
+}
+
+#about p {
+  margin-bottom: 1rem;
+}
+
+#about img:hover {
+  transform: scale(1.05);
+}
+
+#about img {
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Services section styles */
+#services {
+  background-color: #f8f9fa;
+  padding: 4rem 0;
+}
+
+#services h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+#services .card {
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+#services .card:hover {
+  transform: translateY(-5px);
+}
+
+#services .card-img-top {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* Projects section styles */
+/* #projects {
+  padding: 4rem 0;
+}
+
+#projects h3 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #1f1f1f;
+}
+
+#projects .card {
+  border: none;
+  transition: all 0.2s ease-in-out;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+#projects img {
+  border-radius: 10px;
+  margin: 20px 20px 0 20px; 
+  outline: 2px solid #a8a8a8;
+}
+
+#projects .card:hover {
+  transform: translateY(-5px) translate(5px) scale(1.05);
+} */
+
+/* Footer styles */
+#footer {
+  background-color: #000;
+  color: #e7e9ec;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+#footer p {
+  margin-bottom: 0;
+}
+
+#footer h3,h6 {
+  margin-bottom: 0;
+  color: #f0f0f0;
+}
+
+/* Media queries */
+@media (min-width: 576px) {
+  #header h1 {
+    font-size: 5rem;
+  }
+  
+  #header p {
+    font-size: 1.75rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #about img {
+    margin-right: 2rem;
+    margin-bottom: 0;
+  }
+}
+
+/* @media (min-width: 992px) {
+  #services .card,
+  #projects .card {
+    margin-bottom: 3rem;
+  }
+  
+  #services .card:nth-child(odd) .card-img-top {
+    border-top-right-radius: 50%;
+  }
+  
+  #services .card:nth-child(even) .card-img-top {
+    border-top-left-radius: 50%;
+  }
+  
+  #projects .card:nth-child(odd) .card-img-top {
+    border-top-right-radius: 50%;
+  }
+  
+  #projects .card:nth-child(even) .card-img-top {
+    border-top-left-radius: 50%;
+  }
+} */
+
+@media (min-width: 1200px) {
+  #header h1 {
+    font-size: 6rem;
+  }
+  
+  #header p {
+    font-size: 2rem;
+  }
+}
+

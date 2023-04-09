@@ -1,200 +1,331 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Saurabh Potdukhe</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia">
+    <!-- Coding by CodingLab | www.codinglabweb.com -->
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Card Slider</title>
 
-<link rel="stylesheet" href="style.css">
-</head>
-<body style="background-image: url(https://t3.ftcdn.net/jpg/03/62/05/84/360_F_362058402_cc0Gf0QSVwnbYFRmt8psNVqre9xe2VxV.jpg); background-size: 25%;">
-	<header>
-		<nav class="navbar navbar-expand-lg navbar-light bg-grey">
-			<div class="container">
-				<a class="navbar-brand" href="https://github.com/potdukhe12" style="font-size: 1.4rem;font-family: Audiowide, sans-serif;">SAURABH POTDUKHE</a>
-				<button class="navbar-toggler" type="button" 
-					data-toggle="collapse" data-target="#navbarNav"
-					aria-controls="navbarNav" aria-expanded="false" 
-					aria-label="Toggle navigation" data-parent="#navBar">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-	
-				<div class="collapse navbar-collapse justify-content-end" id="navbarNav" data-parent="#navBar">
-					<ul class="navbar-nav">
-						<li class="nav-item">
-							<a class="nav-link" href="#about">About</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="https://github.com/potdukhe12">Github</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#projects">Projects</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#contact">Contact</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-	</header>
-	
-	<main>
-		<section id="about" class="py-5" >
-			<div class="container">
-				<h2 class="text-center mb-4" style="font-family: Sofia, sans-serif;">About Me</h2>
-				<div class="row">
-					<!--<div class="col-md-6" style="padding: 0 135px 0 135px;"> -->
-					<div class="col-md-6" style="text-align: center;">
-						<img src="https://raw.githubusercontent.com/potdukhe12/potdukhe12/main/Saurabh%20Photo.JPG" alt="Profile Picture" class="img-fluid rounded"  style="height: 500px;width:375px">
-					</div>
-					<div class="col-md-6 bg-light" style="padding: 10px 25px 15px 25px; border-radius: 15px;">
-						</br>
-						<p>&emsp;&emsp;Hi, I’m Saurabh, I’ve successfully completed post-graduation diploma in advance computing, from CDAC Pune, which provides me with core knowledge of Java, Spring, JavaScript, React JS and MySQL.
-						    </br></br>
-						    &emsp;&emsp;I’m a team player, have a strong work ethic and passionate about my coding abilities to solve complex problems. I’m excited to start my career in IT sector and eager to make a positive impact in the industry.
-						</p>
-					<p><b>Here are some of my skills:</b></p>
-					<div class="row">
-					    <div class="col">
-						<ul>
-							<li>JAVA</li>
-							<li>Spring</li>
-							<li>.NET Core</li>
-							<li>C#</li>
-							<li>C++</li>
-							<li>Linux</li>
-							<li>React JS</li>
-							<li>Node JS</li>
-						</ul>
-					    </div>							
-					    <div class="col">
-						<ul>
-							<li>MySQL</li>
-							<li>MongoDB</li>
-							<li>Cloud Computing</li>
-							<li>HTML</li>
-							<li>CSS</li>
-							<li>JavaScript</li>
-							<li>Bootstrap</li>
-						</ul>
-					    </div>
-					</div>
-				    </div>
-				</div>
-			</div>
-		</section>
+        <!-- Swiper CSS -->
+        <link rel="stylesheet" href="proj3\Responsive Card Slider\Responsive Card Slider/css/swiper-bundle.min.css">
 
-		<section id="projects">
-			<div class="container">
-				<h2 class="text-center mb-4" style="font-family: Sofia, sans-serif;">Projects</h2>
-				<div class="row">
-					<div class="col-md-4">
-						<div class="card mb-4">
-							<img src="https://raw.githubusercontent.com/potdukhe12/potdukhe12/main/raw/HMS%20project.jpg" alt="Project 1">
-							<div class="card-body">
-								<h3 class="card-title">Project 1</h3>
-								<p class="card-text"><strong>Healthcare Management System</strong></p>
-								<p class="card-text">Platform: <i>React js, Java SpringBoot, MySQL, AWS Cloud</i></p>
-								<a href="http://3.110.81.16:3000" class="btn btn-primary">View Website</a>
-								<a href="https://github.com/potdukhe12/HMS" class="btn btn-primary">View Project</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="card mb-4">
-							<img src="https://www.middlewareinventory.com/wp-content/uploads/2019/03/Screen-Shot-2019-03-12-at-10.15.44-AM.png" alt="Project 2">
-							<div class="card-body">
-								<h3 class="card-title">Project 2</h3>
-								<p class="card-text"><strong>Shoping App using Node js</strong></p>
-								<p class="card-text">Platform: <i>Node js, JSON, Docker</br></i></p>
-								<a href="https://github.com/potdukhe12/AWS-Cloud-Practice/tree/main/NodeJsApp" class="btn btn-primary">View Project</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="card mb-4">
-							<img src="https://raw.githubusercontent.com/potdukhe12/potdukhe12/main/raw/Screenshot%20(127).png" alt="Project 3">
-							<div class="card-body">
-								<h3 class="card-title">Project 3</h3>
-								<p class="card-text"><strong>Portfolio Design</strong></p>
-								<p class="card-text">Platform: <i>HTML, CSS, Bootstrap</br></i></p>
-								<a href="https://github.com/potdukhe12/My-Portfolio" class="btn btn-primary">View Project</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="card mb-4">
-							<img src="https://raw.githubusercontent.com/potdukhe12/ChatBot-Using-OpenAI/main/chatty.png" alt="Project 3">
-							<div class="card-body">
-								<h3 class="card-title">Project 4</h3>
-								<p class="card-text"><strong>Open source project on ChatGPT</strong></p>
-								<!-- <p class="card-text">Platform: <i>HTML, CSS, Bootstrap</br></i></p> -->
-								<a href="https://github.com/potdukhe12/ChatBot-Using-OpenAI" class="btn btn-primary">View Project</a>
-								<a href="www.youtube.com/watch?v=dXsZp39L2Jk" class="btn btn-primary">View Original Source</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-	</main>
+        <!-- CSS -->
+        <link rel="stylesheet" href="proj3\Responsive Card Slider\Responsive Card Slider/css/style.css">
+               
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia">
+        
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-grey">
+                <div class="container">
+                    <a class="navbar-brand" href="https://github.com/potdukhe12" style="font-size: 1.4rem;font-family: Audiowide, sans-serif;">SAURABH POTDUKHE</a>
+                    <button class="navbar-toggler" type="button" 
+                        data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" 
+                        aria-label="Toggle navigation" data-parent="#navBar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+        
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav" data-parent="#navBar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://github.com/potdukhe12">Github</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projects">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
-	<footer>
-		<div id="contact" style="margin: 0 10px 0 10px">
-        	<div class="container">
-        		<div class="row" style="text-align:left">
-					<div class="col-lg-4 col-sm-6 mb-5">
-						<div class="mb-4">
-							<h3 style="font-family: Audiowide, sans-serif;">About Me</h3>
-						</div>
-						<p>Creating is a simple way for me to grow , love to learn</p>
-						</br>
-						<p><h6> Email me on ->&emsp;<a href="mailto:potdukhe12@gmail.com">potdukhe12@gmail.com</h6></a></p>&emsp;
-						<p><h6> My github repositories ->&emsp;<a href="https://github.com/potdukhe12" target="_blank">SAURABH POTDUKHE</h6></a></p>
-						<p>Make sure to 🌟</p>
-        				</div>
-					<div class="col-lg-5 col-sm-6 mb-5">
-						<div class="mb-4">
-							<h3 style="font-family: Audiowide, sans-serif;">My Journey.</h3>
-						</div>
-						<h6>&emsp;Becoming a full stack developer as a fresher has been challenging and rewarding. 
-							I started by learning web development basics like C++, HTML, CSS, and JavaScript, 
-							and then moved on to server-side languages and front-end frameworks like Java, SpringBoot, React js. 
-						</br></br>&emsp;
-							I encountered challenges along the way, but persevered and am now building 
-							a strong portfolio through personal and open-source projects.</h6>
-        					
-        			</div>
-        			<div class="col-lg-3">
-        				<div style="font-size: 2rem;padding-left: 60px;">
-        					<h3 style="font-family: Audiowide, sans-serif;">Let's be social </h3>
-        					<a href="https://www.facebook.com/iSmart.Saurabh"><i class="fab fa-facebook-f"></i></a>
-							<a href="https://github.com/potdukhe12"><i class="fab fa-github"></i></a>
-        					<a href="https://www.linkedin.com/in/saurabh-potdukhe-61b643132"><i class="fab fa-linkedin"></i></a>
-						</div>
-        			</div>
-        		</div>
-        	</div>
-		</div>
+        <main>
+            <section id="about" class="py-5" >
+                <div class="container">
+                    <h2 class="text-center mb-4" style="font-family: Audiowide, sans-serif;">About Me</h2>
+                    <div class="row">
+                        <!--<div class="col-md-6" style="padding: 0 135px 0 135px;"> -->
+                        <div class="col-md-6" style="text-align: center;">
+                            <img src="https://raw.githubusercontent.com/potdukhe12/potdukhe12/main/Saurabh%20Photo.JPG" alt="Profile Picture" class="img-fluid rounded"  style="height: 500px;width:375px">
+                        </div>
+                        <div class="col-md-6 bg-light" style="padding: 10px 25px 15px 25px; border-radius: 15px;">
+                            </br>
+                            <p>&emsp;&emsp;Hi, I’m Saurabh, I’ve successfully completed post-graduation diploma in advance computing, from CDAC Pune, which provides me with core knowledge of Java, Spring, JavaScript, React JS and MySQL.
+                                </br></br>
+                                &emsp;&emsp;I’m a team player, have a strong work ethic and passionate about my coding abilities to solve complex problems. I’m excited to start my career in IT sector and eager to make a positive impact in the industry.
+                            </p>
+                        <p><b>Here are some of my skills:</b></p>
+                        <div class="row">
+                            <div class="col">
+                            <ul>
+                                <li>JAVA</li>
+                                <li>Spring</li>
+                                <li>.NET Core</li>
+                                <li>C#</li>
+                                <li>C++</li>
+                                <li>Linux</li>
+                                <li>React JS</li>
+                                <li>Node JS</li>
+                            </ul>
+                            </div>							
+                            <div class="col">
+                            <ul>
+                                <li>MySQL</li>
+                                <li>MongoDB</li>
+                                <li>Cloud Computing</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div style="align-items: center; padding: 0 10%;">
+                <hr/>
+            </div>
+            <section id="projects" class="py-5">
+                <h2 class="text-center mb-4" style="font-family: Audiowide, sans-serif;">Projects</h2>
+                <div class="slide-container swiper">
+                    <div class="slide-content">
+                        <div class="card-wrapper swiper-wrapper">
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+
+                                    <div class="card-image">
+                                        <img src="https://raw.githubusercontent.com/potdukhe12/potdukhe12/main/raw/HMS%20project.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h3 class="name">Healthcare Management System</h3>
+                                    <p class="description">Platform: <i>React js, Java SpringBoot, MySQL, AWS Cloud</i></p>
+
+                                    <div class="card-link">
+                                        <a href="http://3.110.81.16:3000" style="padding-bottom: 10px;"> Visit Website</a><br/><br/>
+                                        <a href="https://github.com/potdukhe12/HMS" class="btn btn-primary">View Code</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+
+                                    <div class="card-image">
+                                        <img src="https://raw.githubusercontent.com/potdukhe12/ChatBot-Using-OpenAI/main/chatty.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h3 class="name">Open source ChatBOT project</h3>
+                                    <p class="description">An open source project which involves ChatGPT.</p>
+
+                                    <div class="card-link">
+                                        <a href="www.youtube.com/watch?v=dXsZp39L2Jk">View Original Source</a><br/><br/>
+                                        <a href="https://github.com/potdukhe12/ChatBot-Using-OpenAI" class="btn btn-primary">View Code</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+
+                                    <div class="card-image">
+                                        <img src="https://www.middlewareinventory.com/wp-content/uploads/2019/03/Screen-Shot-2019-03-12-at-10.15.44-AM.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h3 class="name">Shoping App using Node js</h3>
+                                    <p class="description">Platform: <i>Node js, JSON, Docker</br></i></p>
+
+                                    <div class="card-link">
+                                        <a href="https://github.com/potdukhe12/AWS-Cloud-Practice/tree/main/NodeJsApp" class="btn btn-primary">View Code</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+
+                                    <div class="card-image">
+                                        <img src="Portfolio.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h3 class="name">Portfolio Design</h3>
+                                    <p class="description">Platform: <i>HTML, CSS, Bootstrap</br></i></p>
+
+                                    <div class="card-link">
+                                        <a href="https://github.com/potdukhe12/My-Portfolio" class="btn btn-primary">View Code</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+
+                                    <div class="card-image">
+                                        <img src="images/profile5.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h3 class="name">David Dell</h3>
+                                    <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                                    <button class="button">View More</button>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+
+                                    <div class="card-image">
+                                        <img src="images/profile6.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h3 class="name">David Dell</h3>
+                                    <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                                    <button class="button">View More</button>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+
+                                    <div class="card-image">
+                                        <img src="images/profile7.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h3 class="name">David Dell</h3>
+                                    <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                                    <button class="button">View More</button>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+
+                                    <div class="card-image">
+                                        <img src="images/profile8.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h3 class="name">David Dell</h3>
+                                    <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                                    <button class="button">View More</button>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+
+                                    <div class="card-image">
+                                        <img src="images/profile9.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h3 class="name">David Dell</h3>
+                                    <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                                    <button class="button">View More</button>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next swiper-navBtn"></div>
+                    <div class="swiper-button-prev swiper-navBtn"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div id="contact" style="margin: 0 10px 0 10px">
+                <div class="container">
+                    <div class="row" style="text-align:left">
+                        <div class="col-lg-4 col-sm-6 mb-5">
+                            <div class="mb-4">
+                                <h3 style="font-family: Audiowide, sans-serif;">About Me</h3>
+                            </div>
+                            <p>Creating is a simple way for me to grow , love to learn</p>
+                            </br>
+                            <p><h6> Email me on ->&emsp;<a href="mailto:potdukhe12@gmail.com">potdukhe12@gmail.com</h6></a></p>&emsp;
+                            <p><h6> My github repositories ->&emsp;<a href="https://github.com/potdukhe12" target="_blank">SAURABH POTDUKHE</h6></a></p>
+                            <p>Make sure to 🌟</p>
+                            </div>
+                        <div class="col-lg-5 col-sm-6 mb-5">
+                            <div class="mb-4">
+                                <h3 style="font-family: Audiowide, sans-serif;">My Journey.</h3>
+                            </div>
+                            <p>&emsp;Becoming a full stack developer as a fresher has been challenging and rewarding. 
+                                I started by learning web development basics like C++, HTML, CSS, and JavaScript, 
+                                and then moved on to server-side languages and front-end frameworks like Java, SpringBoot, React js. 
+                            </br></br>&emsp;
+                                I encountered challenges along the way, but persevered and am now building 
+                                a strong portfolio through personal and open-source projects.</p>
+                                
+                        </div>
+                        <div class="col-lg-3">
+                            <div style="font-size: 2rem;padding-left: 60px;">
+                                <h3 style="font-family: Audiowide, sans-serif;">Let's be social </h3>
+                                <a href="https://www.facebook.com/iSmart.Saurabh"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://github.com/potdukhe12"><i class="fab fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/saurabh-potdukhe-61b643132"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </footer>
+        
+    </body>
 
-	<script>
+    <!-- Swiper JS -->
+    <script src="proj3/Responsive Card Slider/Responsive Card Slider/js/swiper-bundle.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="proj3/Responsive Card Slider/Responsive Card Slider/js/script.js"></script>
+
+    <script>
 		// Toggle the mobile navigation menu
-const menuButton = document.querySelector('.navbar-toggler');
-const mobileNav = document.querySelector('.navbar-collapse');
+        const menuButton = document.querySelector('.navbar-toggler');
+        const mobileNav = document.querySelector('.navbar-collapse');
 
-menuButton.addEventListener('click', function () {
-  menuButton.classList.toggle('active');
-  mobileNav.classList.toggle('show');
-});
-
+        menuButton.addEventListener('click', function () {
+        menuButton.classList.toggle('active');
+        mobileNav.classList.toggle('show');
+        });
 	</script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">	</script>
 	<script src="https://cdnjs.cloudflare.com">
 	</script>
-</body>
+</html>
